@@ -44,4 +44,5 @@ call plug#begin()
   Plug 'honza/vim-snippets'
   Plug 'preservim/tagbar'
   Plug 'morhetz/gruvbox'
+  Plug 'editorconfig/editorconfig-vim'
 call plug#end()
