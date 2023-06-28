@@ -26,3 +26,22 @@ filetype plugin on
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
 autocmd BufWritePre * :%s/\s\+$//e
+
+" plugins
+call plug#begin()
+  Plug 'ap/vim-css-color'
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
+  Plug 'preservim/nerdtree'
+  Plug 'mattn/emmet-vim'
+  Plug 'tpope/vim-surround'
+  Plug 'tpope/vim-repeat'
+  Plug 'tomtom/tcomment_vim'
+  Plug 'thoughtbot/vim-rspec'
+  Plug 'MarcWeber/vim-addon-mw-utils'
+  Plug 'tomtom/tlib_vim'
+  Plug 'garbas/vim-snipmate'
+  Plug 'honza/vim-snippets'
+  Plug 'preservim/tagbar'
+  Plug 'morhetz/gruvbox'
+call plug#end()
