@@ -23,4 +23,11 @@ $ mv vimrc .vim
 $ ln -s ./.vim/.vimrc .
 ```
 
-4. Install all Plugins, `vim .` and then enter `:` + `PluginInstall`
+4. Install all Plugins ``
+
+```bash
+# 1. enter vim mode
+$ vim .
+
+# 2. enter :PluginInstall
+```
